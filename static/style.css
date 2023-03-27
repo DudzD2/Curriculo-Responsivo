@@ -239,3 +239,26 @@ i.menu-mobile {
     background: #fff;
     border-radius: 50%;
 }
+
+.carousel-control-prev {
+    margin-left: -9rem;
+}
+
+.carousel-control-next {
+    margin-right: -9rem;    
+}
+
+.carousel-indicators {
+    margin-bottom: -35px;
+}
+
+
+@media (max-width: 1860px) { /*quando a tela for menor que 1860 px zera as margin das setas*/
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
