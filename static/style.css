@@ -7,6 +7,7 @@ body {
     height: 100%;
 }
 
+
 #header {
     position: fixed;
     top: 0;
@@ -292,4 +293,27 @@ i.menu-mobile {
     [data-anime="right"] {
         transform: translate3d( 0, 100%, 0);
     }
+}
+
+#footer {
+    padding: 12px;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background-color: #25002e;
+    transition: .3s;
+}
+
+@media (max-width: 1012px) {
+
+    #footer {
+        position: static;
+        width: auto;
+        padding: 10px 15px;
+    }
+
 }
