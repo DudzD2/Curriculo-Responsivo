@@ -13,7 +13,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    background: #25002e;
+    background: #0D1B2A;
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -25,7 +25,7 @@ body {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #2c2f3f;
+    border: 8px solid #1B263B;
     border-radius: 50%;
 }
 
@@ -40,7 +40,7 @@ body {
 
 #header .profile .social-links a {
     font-size: 1rem;
-    background: #212431;
+    background: #1B263B;
     color: #fff;
     padding: 0.6rem;
     margin-right: 1rem;
@@ -95,7 +95,7 @@ body {
 }
 
 section#inicio {
-    background-image: url("./img/banner2.jpg");
+    background-image: url("./img/banner4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -121,19 +121,21 @@ section#inicio span#subtitle {
 }
 
 section#inicio div#arraste {
-    width: 9rem;
+    width: 12rem;
+    margin-bottom: 10px;
 
 }
 
 section#inicio div#arraste a {
     text-decoration: none;
+    font-size: 18px;
     color: #fff;
 }
 
 i.menu-mobile {
     position: fixed;
     color: #fff;
-    background-color: #252c90;
+    background-color: #415A77;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -166,12 +168,14 @@ i.menu-mobile {
     }
 
     section#inicio h2 {
-        font-size: 2rem;
+        padding-top: 120px;
+        text-align: center;
+        font-size: 3rem;
     }
 
     section#inicio span#subtitle {
-        margin-right: 0;
-        font-size: 1rem;
+        margin-right: -50px;
+        font-size: 20px;
     }
 
     #main {
@@ -191,7 +195,7 @@ i.menu-mobile {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #25002e;
+    background-color: #1B263B;
 }
 
 .section-bg {
@@ -304,7 +308,7 @@ i.menu-mobile {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background-color: #25002e;
+    background-color: #1B263B;
     transition: .3s;
 }
 
